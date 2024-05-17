@@ -9,29 +9,17 @@ To develop a python control code to move the mobilerobot along the predefined pa
 
 ## Procedure
 
-Step1:
+Step1:Measure the track.
 
-<br/> Measure the track.
+Step2:Enter the measurements of the track.
 
-Step2:
+Step3:Enter the measurements of the track.
 
-<br/>Enter the measurements of the track.
+Step4:Run the code to move the vehicle.
 
-Step3:
+Step5:Begin from the start point , cover the entire track.
 
-<br/>Enter the measurements of the track.
-
-Step4:
-
-<br/>Run the code to move the vehicle.
-
-Step5:
-
-<br/>Begin from the start point , cover the entire track.
-
-Step6:
-
-<br/>Bring back the vehicle to the start point.
+Step6:Bring back the vehicle to the start point.
 
 ## Program
 ```
@@ -99,18 +87,8 @@ if _name_ == '_main_':
     ep_led.set_led(comp = "all",r=0,g=255,b=0,effect="on")
 
 ```
-
 ## MobileRobot Movement Image:
-
 ![robo](./img/robomaster.png)
-
-Insert image here
-
-
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## MobileRobot Movement Video:
 
@@ -120,10 +98,6 @@ https://youtu.be/SwtLJPVcGCE
 
 ## Result:
 Thus the python program code is developed to move the mobilerobot in the predefined path.
-
-
-<br/>
-<br/>
 
 ```
 Mobile Robotics Laboratory
